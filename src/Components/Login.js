@@ -27,8 +27,10 @@ const Login = () => {
     const message = checkValidData(email.current.value, password.current.value);
     setErrorMessage(message);
 
+    //not moving forward if user enters wrong input
     if (message) return;
 
+    //creating a user if a signup page
     if (!isSignIn) {
       createUserWithEmailAndPassword(
         auth,
@@ -57,6 +59,7 @@ const Login = () => {
           setErrorMessage(errorCode + " " + errorMessage);
         });
     } else {
+      //if sign in page login a user if a user enters correct username and password
       signInWithEmailAndPassword(
         auth,
         email.current.value,

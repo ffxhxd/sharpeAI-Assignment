@@ -1,3 +1,5 @@
+//constant file for all the hardcoded data;
+
 export const SHARPE_LOGO_URL =
   "https://framerusercontent.com/images/pDyVPAanzfYpfZFNjTiMP2nAQU.svg";
 export const ERROR_IMAGE =

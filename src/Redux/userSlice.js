@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+//user slice to save users name and uid in redux because we will be needing it anywhere in our app
 const userSlice = createSlice({
   name: "user",
   initialState: null,

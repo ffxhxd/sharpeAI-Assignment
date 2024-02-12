@@ -49,7 +49,7 @@ const Header = () => {
     return () => unsubscribe();
   }, []);
 
-  //function for responsive header
+  //function for checking screen sizes for responsive header
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);

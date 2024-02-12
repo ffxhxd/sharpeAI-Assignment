@@ -9,6 +9,7 @@ import Data from "./Components/Data";
 import Transaction from "./Components/Transaction";
 import ErrorPage from "./Components/ErrorPage";
 
+//definging routes for our application
 const appRouter = createBrowserRouter([
   {
     path: "/",
