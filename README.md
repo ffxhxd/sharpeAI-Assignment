@@ -1,71 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  Frontend React.js Developer Assignment for Sharpe AI
 
-## Available Scripts
+This is a Crypto wallet application that allows users to send ETH from one wallet to another, and view information from the data page. The application is built using React.js.
 
-In the project directory, you can run:
+# Live website link : <https://65c9d6d6bb96aeb85e8300b4--ephemeral-faloodeh-00cb93.netlify.app/>
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Home page : Creatively designed with a focus on aesthetics.
+- Transaction Page: Features a form with input validation for wallet address and amount.
+- Data Page: Fetches data from Google Firestore database stored during the Transaction Page.
+- A sleek navigation bar facilitates seamless transitions between these pages.
+- Implemented a Sign in and Sign up page using Firebase Authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
+To run the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository:
+- git clone <https://github.com/ffxhxd/sharpeAI-Assignment.git>
 
-### `npm run build`
+Navigate to the project directory:
+- cd SharpeAI-Assignment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies:
+- npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server:
+- npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open your browser and go to http://localhost:3000 to view the Application.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- JavaScript 
+- React.js
+- Redux.js
+- Tailwind CSS
+- Firebase
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Best Industry Standard Practices Implemented:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-- Clean, Optimized, and Scalable Codebase:
+The codebase is clean, optimized, and scalable, prioritizing clarity, performance, and adaptability to evolving requirements.More features can be addded and The Application can be scaled to infinite.
 
-## Learn More
+- Centralized Constants:
+All hardcoded strings and URLs are consolidated in a separate constant.js file, promoting centralized configuration for easy maintenance.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Utility Functions in Utils Folder:
+The utils folder houses utility functions and helper modules, fostering modularity and code organization.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Compact Components for Readability:
+Components are designed to be concise, with each containing 80-100 lines of code, improving readability and ease of maintenance.
 
-### Code Splitting
+- DRY Principle Adhered To:
+The Don't Repeat Yourself (DRY) principle is consistently followed, minimizing redundancy and improving code maintainability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Single Responsibility Principle Maintained:
+Components adhere to the Single Responsibility Principle (SRP), ensuring each component has a focused purpose for better maintainability.
 
-### Analyzing the Bundle Size
+- Robust Error Handling:
+Comprehensive error-handling mechanisms have been implemented, providing meaningful messages for debugging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Thorough Manual Testing:
+Rigorous manual testing has been conducted across various devices, ensuring a robust and user-friendly application.
 
-### Making a Progressive Web App
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [@fahad](https://www.github.com/ffxhxd)
+- Made with ❤️ for Sharpe AI
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# sharpeAI-Assignment" 
